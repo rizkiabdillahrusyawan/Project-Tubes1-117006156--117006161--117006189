@@ -1,0 +1,22 @@
+<html> 
+<head> 
+<script type="text/javascript"> 
+function ngetung() 
+{ 
+ var a=document.getElementById("in_a").value; 
+ var b=document.getElementById("in_b").value; 
+ var c=parseInt(a)+parseInt(b); 
+ document.getElementById("o_c").value=c; 
+ 
+} 
+</script> 
+</head> 
+<body> 
+<input type="text" id="in_a"> + 
+<input type="text" id="in_b"> Naskah Kuliah Teknologi Web 1-2012/2013-I STMIK AKAKOM Oleh : M. Guntara
+5 
+ 
+<input type="button" value="=" onClick="ngetung()"> 
+<input type="text" id="o_c" disabled> 
+</body> 
+</html>
